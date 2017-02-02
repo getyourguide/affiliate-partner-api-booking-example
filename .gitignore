@@ -1,0 +1,8 @@
+# All dotfiles except for gitignore
+.*
+!.gitignore
+
+# Local Node.js files
+node_modules
+npm-debug.log
+

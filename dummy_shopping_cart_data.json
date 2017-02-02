@@ -1,0 +1,40 @@
+{
+	"base_data": {
+		"cnt_language": "EN",
+		"currency": "EUR"
+	},
+	"data": {
+		"shopping_cart": {
+			"shopping_cart_hash": "",
+			"billing": {
+				"salutation_code": "m",
+				"first_name": "First",
+				"last_name": "Last",
+				"email": "noreply@getyourguide.com",
+				"is_company": false,
+				"company_name": "",
+				"invoice": false,
+				"address_line_1": "Erich-Weinert-Straße 145",
+				"address_line_2": "",
+				"city": "Berlin",
+				"postal_code": "10409",
+				"state": "",
+				"country_code": "DE",
+				"phone_number": "+49 30 54445944"
+			},
+			"traveler": {
+				"salutation_code": "m",
+				"first_name": "First",
+				"last_name": "Last",
+				"email": "noreply@getyourguide.com",
+				"phone_number": "+49 30 54445944"
+			},
+			"payment": {
+				"encrypted_credit_card": {
+					"format": "adyen",
+					"data": ""
+				}
+			}
+		}
+	}
+}

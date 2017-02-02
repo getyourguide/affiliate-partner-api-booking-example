@@ -1,0 +1,16 @@
+{
+  "name": "partner-api-booking-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example code to get started with GetYourGuide's Partner API.",
+  "readme": "See README.md",
+  "main": "index.js",
+  "author": "GetYourGuide Engineering",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "adyen-cse-js": "git+https://github.com/Adyen/CSE-JS.git#v0.1.19"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
