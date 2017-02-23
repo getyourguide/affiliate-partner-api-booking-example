@@ -6,4 +6,4 @@ To run the script:
 2. Run `npm install` from the project root.
 3. Run `index.js` from the project root and pass a shopping cart hash, `node index 123456789`.
 
-The script connects to the partner test system. Bookings can be made there. The DB get's reset periodically.
+The script connects to the partner test system. Bookings can be made, as the system's database gets reset periodically. All emails are blocked, so no confirmatiom message will be sent.

@@ -14,7 +14,6 @@ const adyen = require('adyen-cse-js');
 
 /**
  * This request is made to get the public key for encrypting payment information.
- * It won't be necessary later when you have the key in your system.
  */
 function requestPaymentConfiguration() {
 	let getPublicKey = (apiResponseData) => {
@@ -81,7 +80,7 @@ function confirmShoppingCart(publicKey) {
 	let encryptedData = cseInstance.encrypt(creditCard);
 
 	// Update the dummy payment data with the shopping cart hash and the encrypted credit card data.
-	shoppingCart.data.shopping_cart.shopping_cart_hash = shoppingCartHash; // Get this from: https://gyg:test@www-getyourguide-com.partner.gygtest.com/?partner_id=0I83F7M
+	shoppingCart.data.shopping_cart.shopping_cart_hash = shoppingCartHash;
 	shoppingCart.data.shopping_cart.payment.encrypted_credit_card.data = encryptedData;
 
 	let postData = JSON.stringify(shoppingCart);
